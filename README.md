@@ -8,6 +8,7 @@ enjoy!
 # Table of content:
 
 - [JavaScript](#javascript)
+    - [Data Structures](#data-structures)
     - [Classes](#classes)
     - [Promises](#Promises)
     - [Await/Async](#await/async)
@@ -27,6 +28,13 @@ enjoy!
 ## Javascript
 
 - [ ] What is JavaScript ?
+
+
+### Data Structures 
+
+- [ ] What Data Structures do we have in JavaScript?
+
+
 
 ### Classes 
 
