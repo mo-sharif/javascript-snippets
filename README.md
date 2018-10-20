@@ -10,9 +10,15 @@ const smartPhones = [
 ];
 
 ```
+```
+let arr = [1, 2, 3, 4, 5];
+let arr2 = arr.map(num => num * 2).filter(num => num > 5);
+// arr2 = [6, 8, 10]
+```
+```
 const prices = smartPhones.map(smartPhone => smartPhone.price);
 console.log(prices);
-
+```
 
 //Making a promise
 
