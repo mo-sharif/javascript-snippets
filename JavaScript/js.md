@@ -7,11 +7,18 @@ enjoy!
 
 # Table of content:
 
-- [JavaScript](#javascript)
-    - [Classes](#classes)
-    - [Promises](#Promises)
-
-
+- [JavaScript](/JavaScript/js.md#javascript)
+    - [Classes](/JavaScript/js.md#classes)
+    - [Promises](/JavaScript/js.md#Promises)
+- [Angular](#angular)
+    - [Angular CLI](#angular-cli)
+    - [Modules](#Modules)
+    - [Components](#Components)
+    - [Directives](#Directives)
+    - [Services](#Services)
+    - [Pipes](#Services)
+    - [Observables](#Observables)
+- [TypeScript](#typescript)
 
 
 ## Javascript
