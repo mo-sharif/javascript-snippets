@@ -7,24 +7,43 @@
 
 - [ ] JavaScript Class ?
 
+```
+
+class Tesla{
+
+constructor(){
+
+
+}
+
+
+
+}
+
+```
+
+
 ### Map function 
 
 ```
-const smartPhones = [
-  { name:'iphone', price:649 },
-  { name:'Galaxy S6', price:576 },
-  { name:'Galaxy Note 5', price:489 }
+const cars = [
+  { name:'BMW', id:1 },
+  { name:'Tesla', id:2 },
+  { name:'Audi', id:3 }
 ];
+```
+```
+const carNames = cars.map(car => car.name);
+console.log(carNames); //["BMW", "Tesla", "Audi"]
+```
+
+### Filter
 
 ```
+const electricCar = carNames.filter(car => car !== "Tesla")
+console.log(electricCar)//["BMW", "Audi"]
 ```
-let arr = [1, 2, 3, 4, 5];
-let arr2 = arr.map(num => num * 2).filter(num => num > 5);
-```
-```
-const prices = smartPhones.map(smartPhone => smartPhone.price);
-console.log(prices);
-```
+
 ### For in loop
 
 ```
