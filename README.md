@@ -7,9 +7,9 @@ enjoy!
 
 # Table of content:
 
-# [JavaScript](#TyjavascriptpeScript🕶️)
-# [Angular](#angular🕶️)
-# [TypeScript](#typescript🕶️)
+- [JavaScript](#javascript)
+- [Angular](#angular)
+- [TypeScript](#typescript)
 
 #Javascript🕶️
 
