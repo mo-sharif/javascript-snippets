@@ -7,9 +7,9 @@ enjoy!
 
 # Table of content:
 
-- [JavaScript](##javascript)
-    - [Classes](###classes)
-    - [Promises](###Promises)
+- [JavaScript](/blob/master/JavaScript/js.md##javascript)
+    - [Classes](/blob/master/JavaScript/js.md###classes)
+    - [Promises](/blob/master/JavaScript/js.md###Promises)
 - [Angular](#angular)
     - [Angular CLI](###angular-cli)
     - [Modules](###Modules)
