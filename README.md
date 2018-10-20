@@ -11,6 +11,12 @@ enjoy!
     - [Classes](#javascript)
     - [Promises](#Promises)
 - [Angular](#angular)
+    - [Angular CLI](#angular-cli)
+    - [Modules](#Modules)
+    - [Components](#Components)
+    - [Directives](#Directives)
+    - [Services](#Services)
+    - [Observables](#Observables)
 - [TypeScript](#typescript)
 
 
@@ -115,9 +121,6 @@ getPosts(): Observable<any[]> {
 ### Pipes
 
 - [ ] Async pipes
-
-### Subscribe
-
 - [ ] Subscribe to an Observable
 
 ## TypeScript
