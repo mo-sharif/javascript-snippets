@@ -9,7 +9,14 @@
 Angular Command line, helps automate some process like generating and building out app
 
 ### Routes
+Sample routes snippet
+```
+const routes: Routes = [
+  { path: '', loadChildren: './tabs/tabs.module#TabsPageModule' },
+  { path: '**', loadChildren: './tabs/tabs.module#TabsPageModule' }
 
+];
+```
 ### Modules
 
 ### Components
@@ -66,4 +73,11 @@ getPosts(): Observable<any[]> {
 }
 
 
+```
+
+
+```
+Subscribe to Pipe
+
+```
 ```
