@@ -11,7 +11,9 @@ enjoy!
 - [Angular](#angular)
 - [TypeScript](#typescript)
 
-#Javascript🕶️
+#Javascript
+
+[] What is JavaScript
 
 ## Map function 
 
@@ -56,7 +58,10 @@ for ( let i in array){
   
 }
 ```
-# Angular🕶️
+# Angular
+
+[] What is Angular?
+
 ## Angular loops
 ```
 *ngIf="(users$ | async).length"
@@ -66,11 +71,17 @@ for ( let i in array){
 
 
 ## observables
+[] What is Observables
+[] Create Observable
 
 ## pipe
 
+[] Async pipes
+
 ## subscribe
 
+[] Subscribe to an Observable
 
+# TypeScript
 
-# TypeScript🕶️
+[] What is typed?
