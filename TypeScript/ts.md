@@ -1,4 +1,13 @@
 
 ## TypeScript
 
-- [ ] What is typed?
+- [ ] Why typed language?
+
+```
+search(term: string) : array[]{
+
+    
+
+}
+
+```
