@@ -120,6 +120,6 @@ getPosts(): Observable<any[]> {
 
 - [ ] Subscribe to an Observable
 
-##TypeScript
+## TypeScript
 
 - [ ] What is typed?
