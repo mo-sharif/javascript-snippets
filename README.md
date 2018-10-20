@@ -20,17 +20,21 @@ const prices = smartPhones.map(smartPhone => smartPhone.price);
 console.log(prices);
 ```
 
-//Making a promise
+## Working with promises
 
+```
 function delay(ms) {
   return new Promise(resolve => setTimeout( resolve, ms));
 }
+```
 
+```
 delay(3000).then(() => alert('runs after 3 seconds'));
+```
 
+## For in loop
 
-//For in loop
-
+```
 let array = [1,2,3];
 
 for ( let i in array){
@@ -38,21 +42,19 @@ for ( let i in array){
   console.log(array[i]);
   
 }
+```
+
+## Angular loops
+```
+*ngIf="(users$ | async).length"
+*ngFor="(let user of users$ | async)"
+```
 
 
 
-//
+## observables
 
+## pipe
 
-// Angular loops
-console.log(`*ngIf="(users$ | async).length"
-*ngFor="(let user of users$ | async)"`);
-
-
-
-//observables
-
-//pipe
-
-//subscribe
+## subscribe
 
