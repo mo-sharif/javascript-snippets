@@ -1,4 +1,8 @@
+# [JavaScript](#TyjavascriptpeScript)
+# [Angular](#angular)
+# [TypeScript](#typescript)
 
+#Javascript
 
 ## Map function 
 
@@ -43,7 +47,7 @@ for ( let i in array){
   
 }
 ```
-
+# Angular
 ## Angular loops
 ```
 *ngIf="(users$ | async).length"
@@ -58,3 +62,6 @@ for ( let i in array){
 
 ## subscribe
 
+
+
+# TypeScript
