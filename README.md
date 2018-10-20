@@ -1,11 +1,11 @@
-# What is this?
+## What is this?
 
 Snippets cheat sheet that I am putting together to help anyone that needs to learn important coding topic or just use it as a refresher :boom: :raised_hands:
 
 enjoy!
 
 
-# Table of content:
+## Table of content:
 
 - [JavaScript](#javascript)
     - [Data Structures](#data-structures)
@@ -31,11 +31,11 @@ enjoy!
 - [ ] What is JavaScript ?
 
 
-### Data Structures 
+#### Data Structures 
 
 - [ ] What Data Structures do we have in JavaScript?
 
-### Arrow Functions 
+#### Arrow Functions 
 
 ES5 function syntax
 
@@ -58,7 +58,7 @@ const sum = (a,b) => {return a + b}
 console.log(sum) //2
 ```
 
-### Classes 
+#### Classes 
 
 - [ ] JavaScript Class ?
 
@@ -78,7 +78,7 @@ constructor(){
 ```
 
 
-### Map function 
+#### Map function 
 
 ```
 const cars = [
@@ -92,14 +92,14 @@ const carNames = cars.map(car => car.name);
 console.log(carNames); //["BMW", "Tesla", "Audi"]
 ```
 
-### Filter
+#### Filter
 
 ```
 const electricCar = carNames.filter(car => car !== "Tesla")
 console.log(electricCar)//["BMW", "Audi"]
 ```
 
-### For in loop
+#### For in loop
 
 ```
 let array = [1,2,3];
@@ -111,7 +111,7 @@ for ( let i in array){
 }
 ```
 
-### Promises
+#### Promises
 
 Callbacks alternatives
 
@@ -125,7 +125,7 @@ function delay(ms) {
 delay(3000).then(() => alert('runs after 3 seconds'));
 ```
 
-### Await/Async
+#### Await/Async
 
 Promises alternative
 
@@ -148,11 +148,11 @@ const asyncRequest = async () => {
 - [ ] What is Angular ?
 - [ ] Angular CLI ?
 
-## Angular CLI
+#### Angular CLI
 
 Angular Command line, helps automate some process like generating and building out app
 
-### Routes
+#### Routes
 Sample routes snippet
 ```
 const routes: Routes = [
@@ -161,29 +161,29 @@ const routes: Routes = [
 
 ];
 ```
-### Modules
+#### Modules
 
-### Components
+#### Components
 
-### Directives
+#### Directives
 
-### Built Directives
+#### Built Directives
 
 ```
 *ngIf="(users$ | async).length"
 *ngFor="(let user of users$ | async)"
 
 ```
-### Services
+#### Services
 
 - [ ] What are services used for?
  
-### Pipes
+#### Pipes
 
 - [ ] Async pipes
 - [ ] Subscribe to an Observable
   
-### Observables
+#### Observables
 - [ ] What is Observables
 - [ ] Create Observable
 
@@ -224,7 +224,6 @@ getPosts(): Observable<any[]> {
 Subscribe to Pipe
 
 ```
-```
 
 
 
@@ -234,8 +233,6 @@ Subscribe to Pipe
 
 ```
 search(term: string) : array[]{
-
-    
 
 }
 
