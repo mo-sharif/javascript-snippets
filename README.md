@@ -87,6 +87,7 @@ Basic map operations
 let map = new Map();
 
 map.set('value', 100);
+
 map.get('value') //100
 
 map.has('value') //true
