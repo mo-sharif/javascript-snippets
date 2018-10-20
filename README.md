@@ -11,6 +11,7 @@ enjoy!
     - [Data Structures](#data-structures)
     - [Arrow Functions](#arrow-functions)
     - [Classes](#classes)
+    - [Map and Set](#mapandset)
     - [Promises](#promises)
     - [Await/Async](#await/async)
 - [Angular](#angular)
@@ -78,7 +79,29 @@ constructor(){
 ```
 
 
-#### Map function 
+#### Map and Set
+
+Basic map operations
+
+```
+let map = new Map();
+
+map.set('value', 100);
+map.get('value') //100
+
+map.has('value') //true
+
+map.delete('value') //true
+
+map.has('value') //false
+
+map.clear();
+
+map.size //0
+
+```
+
+
 
 ```
 const cars = [
