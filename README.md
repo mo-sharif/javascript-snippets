@@ -7,13 +7,13 @@ enjoy!
 
 # Table of content:
 
-- [JavaScript](#javascript)
-    - [Classes](#javascript)
-    - [Promises](#Promises)
+- [JavaScript](##javascript)
+    - [Classes](###classes)
+    - [Promises](###Promises)
 - [Angular](#angular)
-    - [Angular CLI](#angular-cli)
-    - [Modules](#Modules)
-    - [Components](#Components)
+    - [Angular CLI](###angular-cli)
+    - [Modules](###Modules)
+    - [Components](###Components)
     - [Directives](#Directives)
     - [Services](#Services)
     - [Pipes](#Services)
@@ -21,7 +21,7 @@ enjoy!
 - [TypeScript](#typescript)
 
 
-##Javascript
+## Javascript
 
 - [ ] What is JavaScript ?
 
