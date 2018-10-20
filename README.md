@@ -13,7 +13,7 @@ enjoy!
 
 #Javascript
 
-[ ] What is JavaScript ?
+- [ ] What is JavaScript ?
 
 ## Map function 
 
@@ -60,8 +60,8 @@ for ( let i in array){
 ```
 # Angular
 
-[ ] What is Angular ?
-[ ] Angular CLI ?
+- [ ] What is Angular ?
+- [ ] Angular CLI ?
 
 ## Angular loops
 ```
@@ -72,17 +72,17 @@ for ( let i in array){
 
 
 ## observables
-[ ] What is Observables
-[ ] Create Observable
+- [ ] What is Observables
+- [ ] Create Observable
 
 ## pipe
 
-[ ] Async pipes
+- [ ] Async pipes
 
 ## subscribe
 
-[ ] Subscribe to an Observable
+- [ ] Subscribe to an Observable
 
 # TypeScript
 
-[ ] What is typed?
+- [ ] What is typed?
