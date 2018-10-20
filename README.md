@@ -1,6 +1,6 @@
 # What is this?
 
-Just a cheat sheet that I am putting together to help anyone that needs to learn JavaScript or jsut use it as a refresher. I will add to it daily 😎  
+Just a cheat sheet that I am putting together to help anyone that needs to learn important coding topic or just use it as a refresher ✌️  
 
 enjoy!
 
@@ -11,11 +11,12 @@ enjoy!
 - [Angular](#angular)
 - [TypeScript](#typescript)
 
-#Javascript
+
+##Javascript
 
 - [ ] What is JavaScript ?
 
-## Map function 
+### Map function 
 
 ```
 const smartPhones = [
@@ -35,7 +36,7 @@ const prices = smartPhones.map(smartPhone => smartPhone.price);
 console.log(prices);
 ```
 
-## Working with promises
+### Promises
 
 ```
 function delay(ms) {
@@ -47,7 +48,7 @@ function delay(ms) {
 delay(3000).then(() => alert('runs after 3 seconds'));
 ```
 
-## For in loop
+### For in loop
 
 ```
 let array = [1,2,3];
@@ -58,12 +59,12 @@ for ( let i in array){
   
 }
 ```
-# Angular
+## Angular
 
 - [ ] What is Angular ?
 - [ ] Angular CLI ?
 
-## Angular loops
+### Angular loops
 ```
 *ngIf="(users$ | async).length"
 *ngFor="(let user of users$ | async)"
@@ -71,18 +72,18 @@ for ( let i in array){
 
 
 
-## observables
+### Observables
 - [ ] What is Observables
 - [ ] Create Observable
 
-## pipe
+### Pipes
 
 - [ ] Async pipes
 
-## subscribe
+### Subscribe
 
 - [ ] Subscribe to an Observable
 
-# TypeScript
+##TypeScript
 
 - [ ] What is typed?
