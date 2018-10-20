@@ -66,13 +66,15 @@ console.log(sum) //2
 ```
 
 class Tesla{
+public type;
 
-constructor(){
-
-
+constructor(){ 
+    this.type =type;
 }
 
-
+getType(){
+return type;
+}
 
 }
 
@@ -106,9 +108,11 @@ map.size //0
 
 ```
 const cars = [
+
   { name:'BMW', id:1 },
   { name:'Tesla', id:2 },
   { name:'Audi', id:3 }
+
 ];
 ```
 ```
@@ -128,10 +132,8 @@ console.log(electricCar)//["BMW", "Audi"]
 ```
 let array = [1,2,3];
 
-for ( let i in array){
-  
+for ( let i in array){ 
   console.log(array[i]);
-  
 }
 ```
 
@@ -146,7 +148,9 @@ function delay(ms) {
 ```
 
 ```
+
 delay(3000).then(() => alert('runs after 3 seconds'));
+
 ```
 
 #### Await/Async
