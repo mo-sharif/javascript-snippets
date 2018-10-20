@@ -1,6 +1,6 @@
 # What is this?
 
-Just a cheat sheet that I am putting together to help anyone that needs to learn important coding topic or just use it as a refresher ✌️  
+Snippets cheat sheet that I am putting together to help anyone that needs to learn important coding topic or just use it as a refresher ✌️  
 
 enjoy!
 
@@ -69,7 +69,6 @@ for ( let i in array){
 *ngIf="(users$ | async).length"
 *ngFor="(let user of users$ | async)"
 ```
-
 
 
 ### Observables
