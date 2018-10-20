@@ -1,10 +1,3 @@
-# What is this?
-
-Snippets cheat sheet that I am putting together to help anyone that needs to learn important coding topic or just use it as a refresher ✌️  
-
-enjoy!
-
-
 # Table of content:
 
 - [JavaScript](/JavaScript/js.md#javascript)
