@@ -4,6 +4,8 @@
 
 #Javascript🕶️
 
+Just a cheat sheet that I am putting together to help anyone that needs to learn JavaScript or jsut use it as a refresher. I will add to it daily 😎  
+
 ## Map function 
 
 ```
