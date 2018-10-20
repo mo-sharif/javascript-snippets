@@ -1,18 +1,3 @@
-# Table of content:
-
-- [JavaScript](/JavaScript/js.md#javascript)
-    - [Classes](/JavaScript/js.md#classes)
-    - [Promises](/JavaScript/js.md#Promises)
-- [Angular](/Angular/angular.md#angular)
-    - [Angular CLI](/Angular/angular.md#angular-cli)
-    - [Modules](/Angular/angular.md#Modules)
-    - [Components](/Angular/angular.md#Components)
-    - [Directives](/Angular/angular.md#Directives)
-    - [Services](/Angular/angular.md#Services)
-    - [Pipes](/Angular/angular.md#Services)
-    - [Observables](/Angular/angular.md#Observables)
-- [TypeScript](/TypeScript/ts.md#typescript)
-
 
 ## Javascript
 
@@ -40,8 +25,21 @@ let arr2 = arr.map(num => num * 2).filter(num => num > 5);
 const prices = smartPhones.map(smartPhone => smartPhone.price);
 console.log(prices);
 ```
+### For in loop
+
+```
+let array = [1,2,3];
+
+for ( let i in array){
+  
+  console.log(array[i]);
+  
+}
+```
 
 ### Promises
+
+Callbacks alternatives
 
 ```
 function delay(ms) {
@@ -53,14 +51,17 @@ function delay(ms) {
 delay(3000).then(() => alert('runs after 3 seconds'));
 ```
 
-### For in loop
+### Await/Async
+
+Promises alternative
 
 ```
-let array = [1,2,3];
+const asyncRequest = async () => {
 
-for ( let i in array){
-  
-  console.log(array[i]);
-  
+    const val1 = await promise(val1)
+    const val1 = await promise(val1)
+    return promise(request1, request2)
+
 }
+
 ```
