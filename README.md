@@ -16,6 +16,7 @@ enjoy!
     - [Components](#Components)
     - [Directives](#Directives)
     - [Services](#Services)
+    - [Pipes](#Services)
     - [Observables](#Observables)
 - [TypeScript](#typescript)
 
@@ -75,13 +76,32 @@ for ( let i in array){
 - [ ] What is Angular ?
 - [ ] Angular CLI ?
 
-### Angular loops
+## Angular CLI
+
+Angular Command line, helps automate some process like generating and building out app
+
+### Modules
+
+### Components
+
+### Directives
+
+### Built Directives
+
 ```
 *ngIf="(users$ | async).length"
 *ngFor="(let user of users$ | async)"
+
 ```
+### Services
 
+- [ ] What are services used for?
+ 
+### Pipes
 
+- [ ] Async pipes
+- [ ] Subscribe to an Observable
+  
 ### Observables
 - [ ] What is Observables
 - [ ] Create Observable
@@ -117,11 +137,6 @@ getPosts(): Observable<any[]> {
 
 
 ```
-
-### Pipes
-
-- [ ] Async pipes
-- [ ] Subscribe to an Observable
 
 ## TypeScript
 
