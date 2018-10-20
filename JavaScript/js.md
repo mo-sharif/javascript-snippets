@@ -7,9 +7,9 @@ enjoy!
 
 # Table of content:
 
-- [JavaScript](##javascript)
-    - [Classes](###classes)
-    - [Promises](###Promises)
+- [JavaScript](#javascript)
+    - [Classes](#classes)
+    - [Promises](#Promises)
 
 
 
