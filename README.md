@@ -8,6 +8,8 @@ enjoy!
 # Table of content:
 
 - [JavaScript](#javascript)
+    - [Classes](#javascript)
+    - [Promises](#Promises)
 - [Angular](#angular)
 - [TypeScript](#typescript)
 
@@ -15,6 +17,10 @@ enjoy!
 ##Javascript
 
 - [ ] What is JavaScript ?
+
+### Classes 
+
+- [ ] JavaScript Class ?
 
 ### Map function 
 
@@ -74,6 +80,38 @@ for ( let i in array){
 ### Observables
 - [ ] What is Observables
 - [ ] Create Observable
+
+Import Observable and HttpClient
+
+```
+import { Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
+
+```
+Get http API resources
+
+```
+public posts$ :Observable<any>
+
+constructor(public http:HttpClient){}
+
+ngOnInit() {
+
+    this.posts$ = this.getPosts();
+
+}
+
+getPosts(): Observable<any[]> {
+
+    return this.get.http<any[]>('ENTER_API_URI', {
+        params: {
+          per_page: '12'
+        }
+      });
+}
+
+
+```
 
 ### Pipes
 
