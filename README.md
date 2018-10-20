@@ -9,6 +9,7 @@ enjoy!
 
 - [JavaScript](#javascript)
     - [Data Structures](#data-structures)
+    - [Arrow Functions](#arrow-functions)
     - [Classes](#classes)
     - [Promises](#Promises)
     - [Await/Async](#await/async)
@@ -34,7 +35,28 @@ enjoy!
 
 - [ ] What Data Structures do we have in JavaScript?
 
+### Arrow Functions 
 
+ES5 function syntax
+
+```
+const a = 1
+const b = 1
+const sum = function(a,b){
+   return a + b
+}
+console.log(sum) //2
+```
+
+ES6 function syntax
+    Cleaner look and easier to debug
+
+```
+const a = 1
+const b = 1
+const sum = (a,b) => {return a + b}
+console.log(sum) //2
+```
 
 ### Classes 
 
