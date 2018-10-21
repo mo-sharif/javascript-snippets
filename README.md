@@ -1,6 +1,6 @@
 ## What is this?
 
-Snippets cheat sheet that I am putting together to help us develope faster and cleaner code, following latest syntax and practices :boom: :raised_hands:
+Snippets cheat sheet that I am putting together to help us develope faster and cleaner code, while following latest syntax and design practices :boom: :raised_hands:
 
 enjoy!
 
