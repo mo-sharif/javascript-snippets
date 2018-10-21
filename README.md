@@ -11,6 +11,7 @@ enjoy!
     - [Data Structures](#data-structures)
     - [Arrow Functions](#arrow-functions)
     - [Classes](#classes)
+    - [Closures](#closures)
     - [Prototypes](#prototypes)
     - [Maps and Sets](#mapsandsets)
     - [Promises](#promises)
@@ -30,8 +31,7 @@ enjoy!
 
 ## Javascript
 
-- [ ] What is JavaScript ?
-
+>An object-oriented computer programming language commonly used to create interactive effects within web browsers.
 
 #### Data Structures 
 
@@ -62,7 +62,16 @@ console.log(sum) //2
 
 #### Classes 
 
-- [ ] JavaScript Class ?
+#### Closures
+
+Closures are a returned function inside of a function.
+
+- Used for data privacy.
+
+#### Prototypes
+
+
+
 
 ```
 
