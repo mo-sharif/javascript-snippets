@@ -17,6 +17,7 @@ enjoy!
     - [Maps and Sets](#mapsandsets)
     - [Promises](#promises)
     - [Await/Async](#await/async)
+
 - [Angular](#angular)
     - [Angular CLI](#angular-cli)
     - [Modules](#modules)
@@ -26,6 +27,7 @@ enjoy!
     - [Services](#services)
     - [Pipes](#services)
     - [Observables](#observables)
+    
 - [TypeScript](#typescript)
 
 
