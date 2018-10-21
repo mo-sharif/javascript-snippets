@@ -71,6 +71,26 @@ Closures are a returned function inside of a function.
 - Used in callbacks.
 - Used for data privacy.
 
+```
+
+
+const sendCode = (code) => {
+  
+
+  return {
+    send: () => code
+  }
+  
+}
+
+const testClosure = sendCode('123').send();
+
+console.log(testClosure) //123
+
+```
+
+
+
 #### Prototypes
 
 
