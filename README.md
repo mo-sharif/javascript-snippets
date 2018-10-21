@@ -66,6 +66,9 @@ console.log(sum) //2
 
 Closures are a returned function inside of a function.
 
+- Returned function has access to properties in original function.
+- Function variables are enclosed in the scope of the function
+- Used in callbacks.
 - Used for data privacy.
 
 #### Prototypes
