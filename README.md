@@ -66,18 +66,52 @@ console.log(sum) //2
 
 ```
 
-class Tesla{
-public type;
-
-constructor(){ 
-    this.type =type;
+class Cars{
+  
+  constructor(name){
+    
+    this.name = name;
+    this.type = 'vehicle';
+    this.wheels = true;
+    
+  }
+  
+  getType(){
+    
+    return this.type;
+    
+  }
+  
 }
 
-getType(){
-return type;
+//Extending class Cars to Boats
+
+class Boats extends Cars{
+  
+  
+  constructor(name){
+    
+    super(name);
+    this.wheels = false;
+    
+  }
+  
+    getType(){
+    
+    return super.getType();
+    
+  }
+  
+  
+  
 }
 
-}
+//Initiating new instance of class Boat and pass it a boat name
+
+let boat = new Boats('Zombies Can\'t Swim');
+
+console.log(boat); //{ name: "Zombies Can't Swim", type: "vehicle", wheels: false }
+
 
 ```
 
