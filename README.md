@@ -61,8 +61,13 @@ console.log(sum) //2
 ```
 
 #### Classes 
-```
 
+A Class is basically a blueprint that describes the object to be created.
+
+- Classes inherit properties and methods from other classes by extending them.
+- Classes establish a hierarchical relationships.
+
+```
 class Cars{
   
   constructor(name){
@@ -114,7 +119,24 @@ console.log(boat); //{ name: "Zombies Can't Swim", type: "vehicle", wheels: fals
 
 
 #### Prototypes
+- Concatenative inheritance
+    - Inheriting methods and properties directly from another object
+- Prototype delegation
+    -
+```Object.assign()```
 
+```
+const gasCars = {
+  BMW: "German",
+  Audi: "German"
+};
+
+const electricCars = Object.assign({Tesla: "American"}, gasCars);
+
+console.log(electricCars.BMW);
+// expected output: German
+
+```
 
 #### Closures
 
