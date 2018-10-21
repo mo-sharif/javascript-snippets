@@ -121,6 +121,21 @@ console.log(boat); //{ name: "Zombies Can't Swim", type: "vehicle", wheels: fals
 
 - Create Objects using Object literals
 - Create Objects using Constructors
+- Create Objects using ES6 Classes
+
+```
+class vehicle {
+ constructor(name, type){
+ 	this.name = name;
+    this.type = type;
+ }
+}
+
+let boat = new vehicle('Unsinkable','Boat');
+
+let keys = Object.entries(boat)[0]; //Array ["name", "Unsinkable"]
+
+```
 
 #### Prototypes
 - Concatenative inheritance
