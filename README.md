@@ -82,7 +82,7 @@ return type;
 ```
 
 
-#### Map and Set
+#### Maps and Sets
 
 Basic map operations
 
@@ -120,7 +120,18 @@ const cars = [
 const carNames = cars.map(car => car.name);
 console.log(carNames); //["BMW", "Tesla", "Audi"]
 ```
+```
+let cars = new Set();
 
+cars.add('BMW')
+
+cars.has('BMW') //true
+
+cars.delete('BMW') //true
+
+cars.has('BMW') //false
+
+```
 #### Filter
 
 ```
