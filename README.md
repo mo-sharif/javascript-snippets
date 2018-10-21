@@ -105,7 +105,7 @@ map.size //0
 
 ```
 
-
+Mapping and filtering values
 
 ```
 const cars = [
@@ -115,11 +115,18 @@ const cars = [
   { name:'Audi', id:3 }
 
 ];
-```
-```
+
 const carNames = cars.map(car => car.name);
 console.log(carNames); //["BMW", "Tesla", "Audi"]
+
+const carName = [...cars].filter((key) => key.name == "Tesla" );
+console.log(carName); //{ id: 2, name: "Tesla" } 
+
 ```
+#### Sets
+
+Sets basic operations
+
 ```
 let cars = new Set();
 
@@ -131,11 +138,17 @@ cars.delete('BMW') //true
 
 cars.has('BMW') //false
 
+cars.size //1
+
+cars.clear( );
+
+cars.size //0
 ```
 #### Filter
 
 ```
 const electricCar = carNames.filter(car => car !== "Tesla")
+
 console.log(electricCar)//["BMW", "Audi"]
 ```
 
