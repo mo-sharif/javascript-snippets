@@ -11,8 +11,8 @@ enjoy!
     - [Data Structures](#data-structures)
     - [Arrow Functions](#arrow-functions)
     - [Classes](#classes)
-    - [Closures](#closures)
     - [Prototypes](#prototypes)
+    - [Closures](#closures)
     - [Maps and Sets](#mapsandsets)
     - [Promises](#promises)
     - [Await/Async](#await/async)
@@ -61,41 +61,6 @@ console.log(sum) //2
 ```
 
 #### Classes 
-
-#### Closures
-
-Closures are a returned function inside of a function.
-
-- Returned function has access to properties in original function.
-- Function variables are enclosed in the scope of the function
-- Used in callbacks.
-- Used for data privacy.
-
-```
-
-
-const sendCode = (code) => {
-  
-
-  return {
-    send: () => code
-  }
-  
-}
-
-const testClosure = sendCode('123').send();
-
-console.log(testClosure) //123
-
-```
-
-
-
-#### Prototypes
-
-
-
-
 ```
 
 class Cars{
@@ -144,6 +109,37 @@ let boat = new Boats('Zombies Can\'t Swim');
 
 console.log(boat); //{ name: "Zombies Can't Swim", type: "vehicle", wheels: false }
 
+
+```
+
+
+#### Prototypes
+
+
+#### Closures
+
+Closures are a returned function inside of a function.
+
+- Returned function has access to properties in original function.
+- Function variables are enclosed in the scope of the function
+- Used in callbacks.
+- Used for data privacy.
+
+```
+
+
+const sendCode = (code) => {
+  
+
+  return {
+    send: () => code
+  }
+  
+}
+
+const testClosure = sendCode('123').send();
+
+console.log(testClosure) //123
 
 ```
 
