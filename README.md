@@ -72,41 +72,29 @@ A Class is basically a blueprint that describes the object to be created.
 class Cars{
   
   constructor(name){
-    
     this.name = name;
     this.type = 'vehicle';
-    this.wheels = true;
-    
+    this.wheels = true; 
   }
-  
+
   getType(){
-    
     return this.type;
-    
   }
   
 }
 
 //Extending class Cars to Boats
-
 class Boats extends Cars{
   
-  
   constructor(name){
-    
     super(name);
     this.wheels = false;
-    
   }
   
     getType(){
-    
     return super.getType();
-    
   }
-  
-  
-  
+
 }
 
 //Initiating new instance of class Boat and pass it a boat name
@@ -132,9 +120,20 @@ class vehicle {
 }
 
 let boat = new vehicle('Unsinkable','Boat');
+```
 
-let keys = Object.entries(boat)[0]; //Array ["name", "Unsinkable"]
+We can use Object 
 
+```
+let keys = Object.entries(boat)[0]; //["name", "Unsinkable"]
+
+```
+
+Destructuring is used to extract values from Object properties into another variable.
+
+```
+const {name, type} = boat;
+console.log({type}) //{ type: "Boat" }
 ```
 
 #### Prototypes
