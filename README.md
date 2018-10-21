@@ -12,7 +12,7 @@ enjoy!
     - [Arrow Functions](#arrow-functions)
     - [Classes](#classes)
     - [Prototypes](#prototypes)
-    - [Maps and Sets](#mapandset)
+    - [Maps and Sets](#mapsandsets)
     - [Promises](#promises)
     - [Await/Async](#await/async)
 - [Angular](#angular)
