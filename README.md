@@ -11,6 +11,7 @@ enjoy!
     - [Data Structures](#data-structures)
     - [Arrow Functions](#arrow-functions)
     - [Classes](#classes)
+    - [Objects](#objects)
     - [Prototypes](#prototypes)
     - [Closures](#closures)
     - [Maps and Sets](#mapsandsets)
@@ -116,7 +117,10 @@ console.log(boat); //{ name: "Zombies Can't Swim", type: "vehicle", wheels: fals
 
 
 ```
+#### Objects
 
+- Create Objects using Object literals
+- Create Objects using Constructors
 
 #### Prototypes
 - Concatenative inheritance
