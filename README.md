@@ -110,9 +110,10 @@ console.log(boat); //{ name: "Zombies Can't Swim", type: "vehicle", wheels: fals
 ```
 #### Objects
 
-- Create Objects using Object literals
-- Create Objects using Constructors
-- Create Objects using ES6 Classes
+- Creating an Objects:
+  - Object literals
+  - Constructors
+  - ES6 Classes
 
 ```
 class vehicle {
@@ -123,9 +124,29 @@ class vehicle {
 }
 
 let boat = new vehicle('Unsinkable','Boat');
+``` 
+  
+- Shallow copying an Object:  
+  - Spread Syntax ```[...]```
+  - ```Object.assign()``` method
+
+```
+let dog = {
+	type: "Sharpie",
+  	name: "Bentley"  
+}
+//Spread Syntax
+let puppy = {...dog}
+
+console.log(puppy); //{ type: "Sharpie", name: "Bentley" }
+
+//Object assign method
+let doggo = Object.assign({}, dog);
+
+console.log(doggo) //{ type: "Sharpie", name: "Bentley" }
 ```
 
-We can use Object methods such as entries and assign
+We can use Object methods such as entries.
 
 ```
 let keys = Object.entries(boat)[0]; //["name", "Unsinkable"]
