@@ -1,11 +1,12 @@
-## What is this?
+# What is this?
 
 Snippets cheat sheet that I am putting together to help us develope faster and cleaner code, while following latest syntax and design practices :boom: :raised_hands:
 
 enjoy!
 
 
-## Table of content:
+
+# Table of content:
 
 - [JavaScript](#javascript)
     - [Data Structures](#data-structures)
@@ -33,15 +34,17 @@ enjoy!
 
 
 
-## Javascript
+# Javascript
 
 >An object-oriented computer programming language commonly used to create interactive effects within web browsers.
 
-#### Data Structures 
+
+## Data Structures 
 
 - [ ] What Data Structures do we have in JavaScript?
 
-#### Arrow Functions 
+
+## Arrow Functions 
 
 ES5 function syntax
 
@@ -108,7 +111,8 @@ console.log(boat); //{ name: "Zombies Can't Swim", type: "vehicle", wheels: fals
 
 
 ```
-#### Objects
+## Objects
+
 
 - Creating an Objects:
   - Object literals
@@ -338,7 +342,7 @@ Angular Command line, helps automate some process like generating and building o
 
 #### Routes
 
-Routes 
+Routing basically enables your user to navigate from one view/component to another without a page reload. 
 
 Sample routes snippet
 
