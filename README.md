@@ -331,7 +331,11 @@ const asyncRequest = async () => {
 Angular Command line, helps automate some process like generating and building out app
 
 #### Routes
+
+Routes 
+
 Sample routes snippet
+
 ```
 const routes: Routes = [
   { path: '', loadChildren: './tabs/tabs.module#TabsPageModule' },
@@ -345,11 +349,30 @@ const routes: Routes = [
 
 #### Directives
 
+We have three types of directives:
+
+1. Component Directives
+2. Attribute Directives
+
+Retains the DOM element and dynamically change the behavior of the component or element.
+
+```
+<div [hidden]="true"> Hidden div </div>
+<p [style.color]="blue"> Blue colored paragraph </p>
+
+```
+3. Structural Directives
+
+Completely creates, destroys and re-creates the DOM element
+
+```*ngIf``` and ```*ngFor```
+
+
 #### Built Directives
 
 ```
-*ngIf="(users$ | async).length"
-*ngFor="(let user of users$ | async)"
+<div *ngIf="(users$ | async).length"> </div>
+<ul *ngFor="(let user of users$ | async)"> </ul>
 
 ```
 #### Services
