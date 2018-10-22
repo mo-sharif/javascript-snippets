@@ -10,6 +10,7 @@ enjoy!
 - [JavaScript](#javascript)
     - [Data Structures](#data-structures)
     - [Arrow Functions](#arrow-functions)
+    - [This](#this)
     - [Classes](#classes)
     - [Objects](#objects)
     - [Prototypes](#prototypes)
@@ -124,7 +125,7 @@ class vehicle {
 let boat = new vehicle('Unsinkable','Boat');
 ```
 
-We can use Object 
+We can use Object methods such as entries and assign
 
 ```
 let keys = Object.entries(boat)[0]; //["name", "Unsinkable"]
@@ -140,10 +141,9 @@ console.log({type}) //{ type: "Boat" }
 
 #### Prototypes
 - Concatenative inheritance
-    - Inheriting methods and properties directly from another object
+- Inheriting methods and properties directly from another object
 - Prototype delegation
-    -
-```Object.assign()```
+
 
 ```
 const gasCars = {
