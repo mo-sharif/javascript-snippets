@@ -308,12 +308,18 @@ delay(3000).then(() => alert('runs after 3 seconds'));
 Promises alternative
 
 ```
-const asyncRequest = async () => {
+//Generates a number from 1 to 10 
+function randomNum(){
+	return Math.floor(Math.random() * 10);
+}
 
-    const val1 = await promise(val1)
-    const val1 = await promise(val1)
-    return promise(request1, request2)
-
+//Returns the sum of both random values 
+const sum = async () => {
+  
+  const x = await randomNum(); //Output: 5
+  const y = await randomNum(); //Output: 10
+  return x + y; //Output: 15
+  
 }
 
 ```
