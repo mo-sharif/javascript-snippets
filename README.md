@@ -19,6 +19,7 @@ enjoy!
     - [Maps and Sets](#mapsandsets)
     - [Promises](#promises)
     - [Await/Async](#await/async)
+    - [Await/Async](#await/async)
 
 - [Angular](#angular)
     - [Angular CLI](#angular-cli)
@@ -41,7 +42,10 @@ enjoy!
 
 ## Data Structures 
 
-- [ ] What Data Structures do we have in JavaScript?
+- Stacks
+  - push
+  - pop
+- Queues
 
 
 ## Arrow Functions 
@@ -137,7 +141,7 @@ let boat = new vehicle('Unsinkable','Boat');
 ```
 let dog = {
 	type: "Sharpie",
-  	name: "Bentley"  
+  name: "Bentley"  
 }
 //Spread Syntax
 let puppy = {...dog}
