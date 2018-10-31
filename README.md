@@ -19,7 +19,6 @@ enjoy!
     - [Maps and Sets](#mapsandsets)
     - [Promises](#promises)
     - [Await/Async](#await/async)
-    - [Await/Async](#await/async)
 
 - [Angular](#angular)
     - [Angular CLI](#angular-cli)
