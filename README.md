@@ -281,8 +281,11 @@ cars.size //0
 ```
 const electricCar = carNames.find(car => car !== "Tesla")
 
-console.log(electricCar)//["BMW", "Audi"]
+console.log(electricCar) //["BMW", "Audi"]
 ```
+#### Repeat
+
+console.log("Value".repeat(3)) //ValueValueValue
 
 #### For in loop
 
