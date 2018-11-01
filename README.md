@@ -237,7 +237,7 @@ map.size //0
 
 ```
 
-Mapping and filtering values
+Mapping and finding values
 
 ```
 const cars = [
@@ -251,7 +251,7 @@ const cars = [
 const carNames = cars.map(car => car.name);
 console.log(carNames); //["BMW", "Tesla", "Audi"]
 
-const carName = [...cars].filter((key) => key.name == "Tesla" );
+const carName = [...cars].find((key) => key.name == "Tesla" );
 console.log(carName); //{ id: 2, name: "Tesla" } 
 
 ```
@@ -276,10 +276,10 @@ cars.clear( );
 
 cars.size //0
 ```
-#### Filter
+#### Find
 
 ```
-const electricCar = carNames.filter(car => car !== "Tesla")
+const electricCar = carNames.find(car => car !== "Tesla")
 
 console.log(electricCar)//["BMW", "Audi"]
 ```
