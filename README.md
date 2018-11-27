@@ -15,7 +15,7 @@ enjoy!
     - [Classes](#classes)
     - [Objects](#objects)
     - [Prototypes](#prototypes)
-    - [Map, Filter and Reduce](#map,filterandreduce)
+    - [Map, Filter and Reduce](#map-filter-and-reduce)
     - [Closures](#closures)
     - [Maps and Sets](#mapsandsets)
     - [Promises](#promises)
