@@ -15,6 +15,7 @@ enjoy!
     - [Classes](#classes)
     - [Objects](#objects)
     - [Prototypes](#prototypes)
+    - [Map, Filter and Reduce](#mapfilterreduce)
     - [Closures](#closures)
     - [Maps and Sets](#mapsandsets)
     - [Promises](#promises)
@@ -186,6 +187,37 @@ console.log(electricCars.BMW);
 
 ```
 
+### Map, Filter and Reduce
+
+```
+const cars = [
+
+  { name:'BMW', id:1 },
+  { name:'Tesla', id:2 },
+  { name:'Audi', id:3 }
+
+];
+
+```
+**Map** works on an array and return an array that’s it
+
+```
+const carNames = cars.map((car, index, cars) => car.name);
+console.log(carNames); //["BMW", "Tesla", "Audi"]
+
+```
+**Filter** works on array return an array for filtered items.
+
+```
+const bmw = cars.filter((car, index, cars) => car.name === 'BMW') 
+console.log(bmw) //{ name: "BMW", id: 1 }
+```
+**Reduce** works on an array but can return anything you want it to return. 
+```
+const allCars = cars.reduce((all, car, index, cars) => all + ' ' +car.name, 'All Cars:') 
+console.log(allCars) // "All Cars: BMW Tesla Audi"
+```
+
 #### Closures
 
 Closures are a returned function inside of a function.
@@ -237,24 +269,6 @@ map.size //0
 
 ```
 
-Mapping and finding values
-
-```
-const cars = [
-
-  { name:'BMW', id:1 },
-  { name:'Tesla', id:2 },
-  { name:'Audi', id:3 }
-
-];
-
-const carNames = cars.map(car => car.name);
-console.log(carNames); //["BMW", "Tesla", "Audi"]
-
-const carName = [...cars].find((key) => key.name == "Tesla" );
-console.log(carName); //{ id: 2, name: "Tesla" } 
-
-```
 #### Sets
 
 Sets basic operations
@@ -283,6 +297,13 @@ const electricCar = carNames.find(car => car !== "Tesla")
 
 console.log(electricCar) //["BMW", "Audi"]
 ```
+#### Find Index
+
+```
+const carIndex = [...cars].findIndex((key) => key.name == "Tesla" );
+console.log(carIndex); //{ id: 2, name: "Tesla" } 
+```
+
 #### Repeat
 
 console.log("Value".repeat(3)) //ValueValueValue
