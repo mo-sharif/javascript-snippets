@@ -11,7 +11,11 @@
 - No props drilling 
 
 ## Higher Order Components
-- Recompose
+- Makes your functional components smaller and easier to maintian
+- Provide your components the functionality it needs as props
+
+## Recompose
+- Enhance your functional components by adding state, lifecycle methods and context
 
 ## React Hooks
 - Less boilerplate code
